@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two&family=Pacifico&family=Playball&family=Ubuntu&display=swap"
+        rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="first-section">
+        <div class="topnav" style="padding:1% 2% 0%">
+            <a href="index.html">Home</a>
+            <a class="active" href="heroConverter.html">Converter</a>
+            <a href="digitCalculator.html">Calculator</a>
+            <a href="magicBox.html">MagicBox</a>
+        </div>
+    </div>
+
+    <div class="converter">
+        <h1 class="conv-header">Hero Converter</h1>
+
+
+        <input type="text" placeholder="Give your input" id="input">
+        <span style="color:#AEDBCE;">=</span>
+        <input type="text " placeholder="Result" id="result" readonly>
+        <div class="options">
+            <!-- <select id="inputType">
+                    <option value="Kilogram">Kilogram</option>
+                    <option value="Pound">Pound</option>
+                </select> -->
+
+            <select id="conversionType">
+                <option value="K2P">Kilogram to Pound</option>
+                <option value="D2K">Pound to Kilogram</option>
+            </select>
+        </div>
+
+    </div>
+    <script src="js/heroConverter.js"></script>
+</body>
+
+</html>

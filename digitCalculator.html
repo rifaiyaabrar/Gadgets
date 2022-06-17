@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two&family=Pacifico&family=Playball&family=Ubuntu&display=swap"
+        rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="first-section">
+        <div class="topnav" style="padding:1% 2% 0%">
+            <a href="index.html">Home</a>
+            <a href="heroConverter.html">Converter</a>
+            <a class="active" href="digitCalculator.html">Calculator</a>
+            <a href="magicBox.html">MagicBox</a>
+        </div>
+    </div>
+
+    <div class="calculator">
+        <h1>Digit Calculator</h1>
+
+        <div>
+            <label for="input" style="font-size: 1.5rem;"><strong> Series of number: </strong>
+            </label>
+            <input type="text" name="input" id="number" />
+        </div>
+        <div class="flex">
+            <p>Maximum:</p>
+        </div>
+        <div class="flex">
+            <p class="max">0</p>
+        </div>
+        <div class="flex">
+            <p>Minimum:</p>
+        </div>
+        <div class="flex">
+            <p class="min">0</p>
+        </div>
+        <div class="flex">
+            <p>Summation:</p>
+        </div>
+        <div class="flex">
+            <p class="sum">0</p>
+        </div>
+        <div class="flex">
+            <p>Average:</p>
+        </div>
+        <div class="flex">
+            <p class="average">0</p>
+        </div>
+        <div class="flex">
+            <p>Reverse Order:</p>
+        </div>
+        <div class="flex">
+            <p class="reverse">0</p>
+        </div>
+    </div>
+
+    <script src="js/digitCalculator.js"></script>
+</body>
+
+</html>

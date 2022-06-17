@@ -1,0 +1,224 @@
+body{
+    color: #AEDBCE;
+    background-color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index:3;
+
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #AEDBCE;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #AEDBCE;
+    color: black;
+  }
+
+
+
+
+/* qoutepage */
+
+
+
+
+.quote-buttons{
+    display: flex;
+    margin-top: 400px;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.quote-box{
+    display: flex; 
+    
+}
+.quote{
+    
+  padding: 19px 19px;
+}
+
+.lime{
+    border: 10px solid #AEDBCE;
+    background-color: black;
+    font-size: 3rem;
+    font-family: 'Lobster', cursive;
+}
+.blue{
+    border: 10px solid white;
+    background-color: #92B4EC;
+    font-size: 2.8rem;
+    color: white;
+    font-family: 'Lobster Two', cursive;
+}
+.yellow{
+    border: 10px solid #333;
+    background-color: #FFE69A;
+    font-size: 3.2rem;
+    color: #333;
+    font-family: 'Playball', cursive;
+}
+.lavender{
+    border: 10px solid #FBCAFF;
+    background-color: #333;
+    font-size: 2.9rem;
+    color: #FBCAFF;
+    font-family: 'Pacifico', cursive;
+}
+
+.lime-b{
+  padding: 10px;
+  background-color: #AEDBCE;
+}
+.blue-b{
+  padding: 10px;
+  background-color: #92B4EC;
+}
+.yellow-b{
+  padding: 10px;
+  background-color: #FFE69A;
+}
+.lavender-b{
+  padding: 10px;
+  background-color: #FBCAFF;
+}
+button{
+  padding: 0 0;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto ;
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  .grid-container > div {
+    text-align: center;
+    font-size: 30px;
+  }
+
+ 
+
+
+/* converter page */
+
+
+
+
+  .converter{
+  width: 372px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 3px solid #AEDBCE;
+  padding: 50px;
+  font-family: 'Lobster', cursive;
+  }
+  .conv-header{
+    
+  padding: 3px;
+  float: left;
+  margin-left: 24%;
+  margin-top: 10px;
+  }
+
+  .options{
+    text-align: center;
+    padding-top: 20px;
+  }
+
+
+
+/* calculator page */
+
+
+
+
+  .calculator{
+  margin: 10% 27%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #AEDBCE;
+ 
+  width: 45%;
+  font-family: 'Lobster', cursive;
+  font-size: 1.3rem;
+
+  }
+ 
+
+
+
+
+/* magic-box page */
+
+
+
+  .container {
+    margin-top: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #AEDBCE;
+    
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    font-family: 'Lobster', cursive;
+    
+  } 
+  #inputbox {
+    width: 300px;
+    height: 200px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin: 30px;
+    background-color: #AEDBCE;
+  }
+  .button__wrapper {
+    margin-top: 20px;
+  }
+  
+  .button__wrapper button{
+    border-radius: 5px;
+    border:none;
+    padding: 5px;
+    background-color: black;
+    border: 1px solid #AEDBCE;
+    color: #AEDBCE;
+    margin: 2px;
+  }
+  
+  .button__wrapper button:hover{
+    background-color: #AEDBCE;
+    color: black;
+  }
+  
