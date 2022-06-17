@@ -29,7 +29,7 @@ const navcell= document.querySelectorAll(".cell")
 
 blue.addEventListener("click",function(){
     quotebox.classList.add("blue");
-    quotebox.classList.remove("lime","levender","yellow");
+    quotebox.classList.remove("lime","lavender","yellow");
 
     document.querySelector("a.active").style.backgroundColor="#92B4EC";
     
